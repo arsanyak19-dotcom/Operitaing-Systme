@@ -1,0 +1,7 @@
+Linker
+Job:
+The Linker is a program that runs after compilation. Its main job is to combine all the compiled object files and libraries into a single executable program.
+
+Loader
+Job:
+The Loader is part of the operating system. Its main job is to load the executable file into memory and prepare it to run.
