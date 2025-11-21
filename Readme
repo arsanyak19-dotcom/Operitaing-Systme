@@ -3,6 +3,40 @@ git init
 git add .
 git commit -m "Lab-5 submission: compilation/linking examples"
 
+# Operating System Project
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## Project Overview
+This project demonstrates various concepts of operating systems, including **process creation**, **file management**, and **system-level programming** using C on Linux.  
+It includes multiple C programs that show practical examples of **fork**, **exec**, and other system calls.
+
+---
+
+## Features
+- Process creation using `fork()`
+- Executing programs with `exec()`
+- Simple file operations (read, write)
+- Demonstrates linking and compiling multiple C files
+- Designed to be run on **Ubuntu/Linux environments**
+
+---
+
+## Installation
+1. Make sure you have **GCC** installed:
+```bash
+sudo apt update
+sudo apt install gcc -y
 
 git remote add origin <github-url>
 git branch -M main
