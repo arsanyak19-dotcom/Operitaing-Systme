@@ -1,0 +1,9 @@
+
+git init
+git add .
+git commit -m "Lab-5 submission: compilation/linking examples"
+
+
+git remote add origin <github-url>
+git branch -M main
+git push -u origin main
